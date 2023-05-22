@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B73D2BBB-D4C1-4F94-9016-3909666D0036"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5ABB4679-F6C9-4D40-879E-73DF44FECE1D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IBAN_Validation/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "ibanValid(isValid:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "997B5EBB-0204-429D-A17E-795D4C5ABA1B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IBAN_Validation/viewmodel/IbanValidationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "ibanValidation(iban:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "997B5EBB-0204-429D-A17E-795D4C5ABA1B - 381118d396577c21"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;IBAN_Validation.IBanValidationResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in IBAN_Validation.IbanValidationViewModel.ibanValidation(iban: Swift.String) -&gt; ()"
+                  moduleName = "IBAN_Validation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ihabyasser/Desktop/IBAN_Validation/IBAN_Validation/viewmodel/IbanValidationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "2220">
+               </Location>
+               <Location
+                  uuid = "997B5EBB-0204-429D-A17E-795D4C5ABA1B - 381118d396577c21"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;IBAN_Validation.IBanValidationResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in IBAN_Validation.IbanValidationViewModel.ibanValidation(iban: Swift.String) -&gt; ()"
+                  moduleName = "IBAN_Validation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ihabyasser/Desktop/IBAN_Validation/IBAN_Validation/viewmodel/IbanValidationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "2296">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5EB94736-CE7C-489A-A512-5F549DC11986"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IBAN_Validation/viewmodel/IbanValidationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "ibanValidation(iban:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5EB94736-CE7C-489A-A512-5F549DC11986 - 381118d396577cef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;IBAN_Validation.IBanValidationResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in IBAN_Validation.IbanValidationViewModel.ibanValidation(iban: Swift.String) -&gt; ()"
+                  moduleName = "IBAN_Validation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ihabyasser/Desktop/IBAN_Validation/IBAN_Validation/viewmodel/IbanValidationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "2468">
+               </Location>
+               <Location
+                  uuid = "5EB94736-CE7C-489A-A512-5F549DC11986 - 381118d396577cef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;IBAN_Validation.IBanValidationResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in IBAN_Validation.IbanValidationViewModel.ibanValidation(iban: Swift.String) -&gt; ()"
+                  moduleName = "IBAN_Validation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ihabyasser/Desktop/IBAN_Validation/IBAN_Validation/viewmodel/IbanValidationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "2544">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "418425C2-4413-4E7B-BB34-AD49A6588DC1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IBAN_Validation/viewmodel/IbanValidationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "ibanValidation(iban:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "418425C2-4413-4E7B-BB34-AD49A6588DC1 - 381118d396577d6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;IBAN_Validation.IBanValidationResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in IBAN_Validation.IbanValidationViewModel.ibanValidation(iban: Swift.String) -&gt; ()"
+                  moduleName = "IBAN_Validation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ihabyasser/Desktop/IBAN_Validation/IBAN_Validation/viewmodel/IbanValidationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "3028">
+               </Location>
+               <Location
+                  uuid = "418425C2-4413-4E7B-BB34-AD49A6588DC1 - 381118d396577d6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;IBAN_Validation.IBanValidationResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in IBAN_Validation.IbanValidationViewModel.ibanValidation(iban: Swift.String) -&gt; ()"
+                  moduleName = "IBAN_Validation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ihabyasser/Desktop/IBAN_Validation/IBAN_Validation/viewmodel/IbanValidationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "3620">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F483297-5BF4-4322-87AA-9B67AD52E61F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IBAN_Validation/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "echangeValue(value:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "1F483297-5BF4-4322-87AA-9B67AD52E61F - 1eaa80869376a35c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IBAN_Validation.ViewController.ibanValid(isValid: Swift.Bool) -&gt; ()"
+                  moduleName = "IBAN_Validation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ihabyasser/Desktop/IBAN_Validation/IBAN_Validation/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "420">
+               </Location>
+               <Location
+                  uuid = "1F483297-5BF4-4322-87AA-9B67AD52E61F - 3bda29b8bac95b69"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IBAN_Validation.ViewController.echangeValue(value: Swift.String) -&gt; ()"
+                  moduleName = "IBAN_Validation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ihabyasser/Desktop/IBAN_Validation/IBAN_Validation/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A9D135E-7E4E-48CF-AD28-D1B7A386855E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IBAN_Validation/viewmodel/IbanValidationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "exchangeCurrency(oldCurrency:newcurrency:amount:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1A9D135E-7E4E-48CF-AD28-D1B7A386855E - d535079542fd4cab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;IBAN_Validation.RateResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in IBAN_Validation.IbanValidationViewModel.exchangeCurrency(oldCurrency: Swift.String, newcurrency: Swift.String, amount: Swift.String) -&gt; ()"
+                  moduleName = "IBAN_Validation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ihabyasser/Desktop/IBAN_Validation/IBAN_Validation/viewmodel/IbanValidationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "1136">
+               </Location>
+               <Location
+                  uuid = "1A9D135E-7E4E-48CF-AD28-D1B7A386855E - d535079542fd4cab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;IBAN_Validation.RateResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in IBAN_Validation.IbanValidationViewModel.exchangeCurrency(oldCurrency: Swift.String, newcurrency: Swift.String, amount: Swift.String) -&gt; ()"
+                  moduleName = "IBAN_Validation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ihabyasser/Desktop/IBAN_Validation/IBAN_Validation/viewmodel/IbanValidationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "1052">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0671A067-D6BB-423D-B634-62943C3C7CF3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IBAN_Validation/viewmodel/IbanValidationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "exchangeCurrency(oldCurrency:newcurrency:amount:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8BE92893-6546-46E8-8C05-004E26690C0B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IBAN_Validation/viewmodel/IbanValidationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "exchangeCurrency(oldCurrency:newcurrency:amount:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8BE92893-6546-46E8-8C05-004E26690C0B - d535079542fd4d2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;IBAN_Validation.RateResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in IBAN_Validation.IbanValidationViewModel.exchangeCurrency(oldCurrency: Swift.String, newcurrency: Swift.String, amount: Swift.String) -&gt; ()"
+                  moduleName = "IBAN_Validation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ihabyasser/Desktop/IBAN_Validation/IBAN_Validation/viewmodel/IbanValidationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "2376">
+               </Location>
+               <Location
+                  uuid = "8BE92893-6546-46E8-8C05-004E26690C0B - d535079542fd4d2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;IBAN_Validation.RateResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in IBAN_Validation.IbanValidationViewModel.exchangeCurrency(oldCurrency: Swift.String, newcurrency: Swift.String, amount: Swift.String) -&gt; ()"
+                  moduleName = "IBAN_Validation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ihabyasser/Desktop/IBAN_Validation/IBAN_Validation/viewmodel/IbanValidationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "2388">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B55ECA09-8182-4923-B0D1-F03D38D10016"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IBAN_Validation/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "request(url:method:params:headers:type:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

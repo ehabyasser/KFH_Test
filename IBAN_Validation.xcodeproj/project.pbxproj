@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32C6D1B7323A6028CC845675 /* Pods_IBAN_Validation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFB3FC6093EB337B1C23E0A /* Pods_IBAN_Validation.framework */; };
+		DBB4746F2A1A363D00F2FAF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB4746E2A1A363D00F2FAF1 /* AppDelegate.swift */; };
+		DBB474712A1A363D00F2FAF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB474702A1A363D00F2FAF1 /* SceneDelegate.swift */; };
+		DBB474732A1A363D00F2FAF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB474722A1A363D00F2FAF1 /* ViewController.swift */; };
+		DBB474762A1A363D00F2FAF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB474742A1A363D00F2FAF1 /* Main.storyboard */; };
+		DBB474782A1A363E00F2FAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB474772A1A363E00F2FAF1 /* Assets.xcassets */; };
+		DBB4747B2A1A363E00F2FAF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB474792A1A363E00F2FAF1 /* LaunchScreen.storyboard */; };
+		DBB474842A1A368B00F2FAF1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB474832A1A368B00F2FAF1 /* NetworkManager.swift */; };
+		DBB474872A1A36F000F2FAF1 /* IbanValidationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB474862A1A36F000F2FAF1 /* IbanValidationViewModel.swift */; };
+		DBB4748A2A1A373200F2FAF1 /* IbanValidationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB474892A1A373200F2FAF1 /* IbanValidationDelegate.swift */; };
+		DBB4748D2A1A37CA00F2FAF1 /* IBanValidationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB4748C2A1A37CA00F2FAF1 /* IBanValidationResponse.swift */; };
+		DBB4748E2A1A393F00F2FAF1 /* sni.cloudflaressl.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = DBB474822A1A367900F2FAF1 /* sni.cloudflaressl.com.cer */; };
+		DBB474902A1A424400F2FAF1 /* RateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB4748F2A1A424400F2FAF1 /* RateResponse.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC2B20FD80D6A3E998307A9A /* Pods-IBAN_Validation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBAN_Validation.debug.xcconfig"; path = "Target Support Files/Pods-IBAN_Validation/Pods-IBAN_Validation.debug.xcconfig"; sourceTree = "<group>"; };
+		BDFB3FC6093EB337B1C23E0A /* Pods_IBAN_Validation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBAN_Validation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB4746B2A1A363D00F2FAF1 /* IBAN_Validation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBAN_Validation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB4746E2A1A363D00F2FAF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBB474702A1A363D00F2FAF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DBB474722A1A363D00F2FAF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBB474752A1A363D00F2FAF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBB474772A1A363E00F2FAF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBB4747A2A1A363E00F2FAF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBB4747C2A1A363E00F2FAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB474822A1A367900F2FAF1 /* sni.cloudflaressl.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = sni.cloudflaressl.com.cer; sourceTree = "<group>"; };
+		DBB474832A1A368B00F2FAF1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		DBB474862A1A36F000F2FAF1 /* IbanValidationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanValidationViewModel.swift; sourceTree = "<group>"; };
+		DBB474892A1A373200F2FAF1 /* IbanValidationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanValidationDelegate.swift; sourceTree = "<group>"; };
+		DBB4748C2A1A37CA00F2FAF1 /* IBanValidationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBanValidationResponse.swift; sourceTree = "<group>"; };
+		DBB4748F2A1A424400F2FAF1 /* RateResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateResponse.swift; sourceTree = "<group>"; };
+		DD67ABB74DD7EA3F66902977 /* Pods-IBAN_Validation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBAN_Validation.release.xcconfig"; path = "Target Support Files/Pods-IBAN_Validation/Pods-IBAN_Validation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBB474682A1A363D00F2FAF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C6D1B7323A6028CC845675 /* Pods_IBAN_Validation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB6A50D9C2BC7C45E4E91AEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDFB3FC6093EB337B1C23E0A /* Pods_IBAN_Validation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBB474622A1A363D00F2FAF1 = {
+			isa = PBXGroup;
+			children = (
+				DBB4746D2A1A363D00F2FAF1 /* IBAN_Validation */,
+				DBB4746C2A1A363D00F2FAF1 /* Products */,
+				EE6451FAF3A8C02C2DF26CAA /* Pods */,
+				DB6A50D9C2BC7C45E4E91AEA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DBB4746C2A1A363D00F2FAF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBB4746B2A1A363D00F2FAF1 /* IBAN_Validation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBB4746D2A1A363D00F2FAF1 /* IBAN_Validation */ = {
+			isa = PBXGroup;
+			children = (
+				DBB4748B2A1A37C300F2FAF1 /* model */,
+				DBB474882A1A372200F2FAF1 /* delegate */,
+				DBB474852A1A36DB00F2FAF1 /* viewmodel */,
+				DBB474822A1A367900F2FAF1 /* sni.cloudflaressl.com.cer */,
+				DBB4746E2A1A363D00F2FAF1 /* AppDelegate.swift */,
+				DBB474702A1A363D00F2FAF1 /* SceneDelegate.swift */,
+				DBB474722A1A363D00F2FAF1 /* ViewController.swift */,
+				DBB474742A1A363D00F2FAF1 /* Main.storyboard */,
+				DBB474772A1A363E00F2FAF1 /* Assets.xcassets */,
+				DBB474792A1A363E00F2FAF1 /* LaunchScreen.storyboard */,
+				DBB4747C2A1A363E00F2FAF1 /* Info.plist */,
+				DBB474832A1A368B00F2FAF1 /* NetworkManager.swift */,
+			);
+			path = IBAN_Validation;
+			sourceTree = "<group>";
+		};
+		DBB474852A1A36DB00F2FAF1 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				DBB474862A1A36F000F2FAF1 /* IbanValidationViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		DBB474882A1A372200F2FAF1 /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				DBB474892A1A373200F2FAF1 /* IbanValidationDelegate.swift */,
+			);
+			path = delegate;
+			sourceTree = "<group>";
+		};
+		DBB4748B2A1A37C300F2FAF1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				DBB4748C2A1A37CA00F2FAF1 /* IBanValidationResponse.swift */,
+				DBB4748F2A1A424400F2FAF1 /* RateResponse.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		EE6451FAF3A8C02C2DF26CAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC2B20FD80D6A3E998307A9A /* Pods-IBAN_Validation.debug.xcconfig */,
+				DD67ABB74DD7EA3F66902977 /* Pods-IBAN_Validation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBB4746A2A1A363D00F2FAF1 /* IBAN_Validation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB4747F2A1A363E00F2FAF1 /* Build configuration list for PBXNativeTarget "IBAN_Validation" */;
+			buildPhases = (
+				3D95DD25FCD904849A5D45C4 /* [CP] Check Pods Manifest.lock */,
+				DBB474672A1A363D00F2FAF1 /* Sources */,
+				DBB474682A1A363D00F2FAF1 /* Frameworks */,
+				DBB474692A1A363D00F2FAF1 /* Resources */,
+				181AB95E8945D3575D5B9D0C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBAN_Validation;
+			productName = IBAN_Validation;
+			productReference = DBB4746B2A1A363D00F2FAF1 /* IBAN_Validation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBB474632A1A363D00F2FAF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DBB4746A2A1A363D00F2FAF1 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = DBB474662A1A363D00F2FAF1 /* Build configuration list for PBXProject "IBAN_Validation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBB474622A1A363D00F2FAF1;
+			productRefGroup = DBB4746C2A1A363D00F2FAF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBB4746A2A1A363D00F2FAF1 /* IBAN_Validation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBB474692A1A363D00F2FAF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB4748E2A1A393F00F2FAF1 /* sni.cloudflaressl.com.cer in Resources */,
+				DBB4747B2A1A363E00F2FAF1 /* LaunchScreen.storyboard in Resources */,
+				DBB474782A1A363E00F2FAF1 /* Assets.xcassets in Resources */,
+				DBB474762A1A363D00F2FAF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		181AB95E8945D3575D5B9D0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IBAN_Validation/Pods-IBAN_Validation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IBAN_Validation/Pods-IBAN_Validation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IBAN_Validation/Pods-IBAN_Validation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D95DD25FCD904849A5D45C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IBAN_Validation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBB474672A1A363D00F2FAF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB474902A1A424400F2FAF1 /* RateResponse.swift in Sources */,
+				DBB474872A1A36F000F2FAF1 /* IbanValidationViewModel.swift in Sources */,
+				DBB4748A2A1A373200F2FAF1 /* IbanValidationDelegate.swift in Sources */,
+				DBB4748D2A1A37CA00F2FAF1 /* IBanValidationResponse.swift in Sources */,
+				DBB474842A1A368B00F2FAF1 /* NetworkManager.swift in Sources */,
+				DBB474732A1A363D00F2FAF1 /* ViewController.swift in Sources */,
+				DBB4746F2A1A363D00F2FAF1 /* AppDelegate.swift in Sources */,
+				DBB474712A1A363D00F2FAF1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBB474742A1A363D00F2FAF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBB474752A1A363D00F2FAF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBB474792A1A363E00F2FAF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBB4747A2A1A363E00F2FAF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBB4747D2A1A363E00F2FAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBB4747E2A1A363E00F2FAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBB474802A1A363E00F2FAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC2B20FD80D6A3E998307A9A /* Pods-IBAN_Validation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FSAAAHXXW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IBAN_Validation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sociocode.IBAN-Validation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBB474812A1A363E00F2FAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD67ABB74DD7EA3F66902977 /* Pods-IBAN_Validation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FSAAAHXXW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IBAN_Validation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sociocode.IBAN-Validation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBB474662A1A363D00F2FAF1 /* Build configuration list for PBXProject "IBAN_Validation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB4747D2A1A363E00F2FAF1 /* Debug */,
+				DBB4747E2A1A363E00F2FAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB4747F2A1A363E00F2FAF1 /* Build configuration list for PBXNativeTarget "IBAN_Validation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB474802A1A363E00F2FAF1 /* Debug */,
+				DBB474812A1A363E00F2FAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBB474632A1A363D00F2FAF1 /* Project object */;
+}
